@@ -1,0 +1,1351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="./TBX-IATE_DCA.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="./TBXcoreStructV03_TBX-IATE_integrated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<tbx xmlns="urn:iso:std:iso:30042:ed-2" type="TBX-IATE" style="dca" xml:lang="en">
+  <tbxHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>IATE dataset</title>
+      </titleStmt>
+      <sourceDesc>
+        <p>This is a TBX file downloaded from IATE. Please address any inquiries to iate@cdt.europa.eu.</p>
+      </sourceDesc>
+    </fileDesc>
+  </tbxHeader>
+  <text>
+    <body>
+      <conceptEntry id="3576319">
+        <descrip type="subjectField">education policy;social sciences</descrip>
+        <langSec xml:lang="sv">
+          <termSec>
+            <term>flerspråkighet vid gräserna</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pl">
+          <termSec>
+            <term>wielojęzyczność w regionach przygranicznych</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="bg">
+          <termSec>
+            <term>погранично многоезичие</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="es">
+          <termSec>
+            <term>multilingüismo en la frontera</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="sl">
+          <termSec>
+            <term>večjezičnost v obmejnih regijah</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fi">
+          <termSec>
+            <term>raja-alueiden monikielisyys</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="de">
+          <termSec>
+            <term>Mehrsprachigkeit in Grenzregionen</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="ro">
+          <termSec>
+            <term>multilingvism la frontiere</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="lv">
+          <termSec>
+            <term>daudzvalodība pierobežā</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">6</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="cs">
+          <termSec>
+            <term>mnohojazyčnost v příhraničních oblastech</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="nl">
+          <termSec>
+            <term>meertaligheid in grensregio's</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="da">
+          <termSec>
+            <term>flersprogethed i grænseregioner</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>multilinguismo nas regiões fronteiriças</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>ilteangachas teorann</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>border multilingualism</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="el">
+          <termSec>
+            <term>πολυγλωσσία στις παραμεθόριες περιοχές</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <termSec>
+            <term>multilinguismo nelle regioni frontaliere</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="lt">
+          <termSec>
+            <term>daugiakalbystė pasienio regionuose</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">6</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="sk">
+          <termSec>
+            <term>viacjazyčnosť v pohraničných regiónoch</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="mt">
+          <termSec>
+            <term>multilingwiżmu fil-fruntieri</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="et">
+          <termSec>
+            <term>mitmekeelsus piirialadel</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="hu">
+          <termSec>
+            <term>határ menti többnyelvűség</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="hr">
+          <termSec>
+            <term>višejezičnost uz granice</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>multilinguisme frontalier</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3572168">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>Cuainiáimis</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Kwanyama</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>Oshikwanyama</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>Oshiwambo</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>cuanhama</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3580608">
+        <descrip type="subjectField">linguistics</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>schwa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">1</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3575735">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Cape Verdean</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>cabo-verdiano</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3572191">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>Niaimbis</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Nyemba</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>ganguela</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3573858">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Luvale</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>luvale</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3573821">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Nyaneka</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>nhaneca</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3575067">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Yao</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>ajaua</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3569891">
+        <descrip type="subjectField">linguistics</descrip>
+        <langSec xml:lang="pl">
+          <termSec>
+            <term>tokenizacja</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>téacschomharthú</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>tokenization</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="de">
+          <termSec>
+            <term>Lexierung</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>Parsen</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">6</descrip>
+          </termSec>
+          <termSec>
+            <term>lexikalische Analyse</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>Tokenisierung</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="sk">
+          <termSec>
+            <term>tokenizácia</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="cs">
+          <termSec>
+            <term>tokenizace</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="et">
+          <termSec>
+            <term>sõnestus</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>toquenização</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3574907">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Sena</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>sena</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3574911">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Nyungwe</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>nhúngue</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3574910">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Tswa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>tsua</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3575066">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Chopi</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>chope</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3573388">
+        <descrip type="subjectField">information;United Nations;social sciences</descrip>
+        <langSec xml:lang="es">
+          <termSec>
+            <term>atlas UNESCO de las lenguas del mundo en peligro</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">1</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>UNESCO Atlas of the World's Languages in Danger</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>atlas UNESCO des langues en danger dans le monde</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="1091047">
+        <descrip type="subjectField">database;multilingualism;terminology</descrip>
+        <langSec xml:lang="sv">
+          <termSec>
+            <term>interaktiv terminologi för Europa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>Iate</term>
+            <termNote type="termType">abbreviation</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pl">
+          <termSec>
+            <term>interaktywna europejska baza terminologiczna</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="bg">
+          <termSec>
+            <term>IATE</term>
+            <termNote type="termType">abbreviation</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+          <termSec>
+            <term>Интерактивна терминология за Европа</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="es">
+          <termSec>
+            <term>Terminología Interactiva para Europa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="sl">
+          <termSec>
+            <term>Interaktivna terminologija za Evropo</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fi">
+          <termSec>
+            <term>Euroopan interaktiivinen termipankki</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="de">
+          <termSec>
+            <term>InterAktive Terminologie für Europa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="ro">
+          <termSec>
+            <term>Schimb Terminologic între Agenții</term>
+            <termNote type="termType">fullForm</termNote>
+            <termNote type="administrativeStatus">supersededTerm-admn-sts</termNote>
+            <descrip type="reliabilityCode">6</descrip>
+          </termSec>
+          <termSec>
+            <term>Terminologie Interactivă pentru Europa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="lv">
+          <termSec>
+            <term>Eiropas Interaktīvā terminoloģijas datubāze</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="cs">
+          <termSec>
+            <term>Interaktivní terminologie pro Evropu</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="nl">
+          <termSec>
+            <term>Interactieve Terminologie voor Europa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="da">
+          <termSec>
+            <term>Interaktiv Terminologi for Europa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>Terminologia Interativa para a Europa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>Téarmaíocht Idirghníomhach don Eoraip</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Inter-agency terminology exchange</term>
+            <termNote type="termType">fullForm</termNote>
+            <termNote type="administrativeStatus">supersededTerm-admn-sts</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>Interactive Terminology for Europe</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="el">
+          <termSec>
+            <term>Διαδραστική ορολογία για την Ευρώπη</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <termSec>
+            <term>scambio terminologico tra agenzie</term>
+            <termNote type="termType">fullForm</termNote>
+            <termNote type="administrativeStatus">supersededTerm-admn-sts</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>terminologia interattiva per l'Europa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="lt">
+          <termSec>
+            <term>sąveikioji Europos terminologija</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="sk">
+          <termSec>
+            <term>InterAktívna Terminológia pre Európu</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="mt">
+          <termSec>
+            <term>Terminoloġija Interattiva għall-Ewropa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="et">
+          <termSec>
+            <term>Euroopa interaktiivne terminibaas</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="hu">
+          <termSec>
+            <term>Európai interaktív terminológia</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Terminologie interactive pour l'Europe</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3573393">
+        <descrip type="subjectField">information;United Nations;social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>severely endangered</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3569892">
+        <descrip type="subjectField">information technology and data processing;humanities</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>nath ilfhoclach</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>multiword expression</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>MWE</term>
+            <termNote type="termType">abbreviation</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>expressão multipalavra</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3578319">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Multilingual Europe Technology Alliance</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>META</term>
+            <termNote type="termType">abbreviation</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>Aliança Europeia para a Tecnologia Multilingue</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3569890">
+        <descrip type="subjectField">information technology and data processing;humanities</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>parsáil éadomhain</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>shallow parsing</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>chunking</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>light parsing</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>análise sintática superficial</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3570197">
+        <descrip type="subjectField">communications;humanities</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>catafóra</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>cataphora</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>catáfora</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3574909">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Lomwe</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>lómue</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3588038">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Khmer</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>Cambodian</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>cmere</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>cambojano</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3588420">
+        <descrip type="subjectField">public awareness campaign;European language</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>International Greek Language Day</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="el">
+          <termSec>
+            <term>Παγκόσμια Ημέρα Ελληνικής Γλώσσας</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>Journée mondiale de la langue grecque</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3590019">
+        <descrip type="subjectField">non-European language</descrip>
+        <langSec xml:lang="fi">
+          <termSec>
+            <term>yksinkertaistettu kiina</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Simplified Chinese</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3573391">
+        <descrip type="subjectField">information;United Nations</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>vulnerable</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3573398">
+        <descrip type="subjectField">information;United Nations;social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>crticially endangered</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3574908">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Changana</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>changana</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3570196">
+        <descrip type="subjectField">communications;humanities</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>prionsabal Frege</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>prionsabal na comhdhéantachta</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Frege's principle</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>principle of compositionality</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>princípio de Frege</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>princípio de composicionalidade</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3575065">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Ronga</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>ronga</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3573392">
+        <descrip type="subjectField">information;United Nations</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>definitely endangered</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="763881">
+        <descrip type="subjectField">education</descrip>
+        <langSec xml:lang="sv">
+          <termSec>
+            <term>språkkunskaper</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pl">
+          <termSec>
+            <term>umiejętności językowe</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fi">
+          <termSec>
+            <term>kielitaito</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="ro">
+          <termSec>
+            <term>abilități lingvistice</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="lv">
+          <termSec>
+            <term>valodas prasmes</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">6</descrip>
+          </termSec>
+          <termSec>
+            <term>valodu prasmes</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="cs">
+          <termSec>
+            <term>jazykové dovednosti</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="nl">
+          <termSec>
+            <term>talenkennis</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>taalvaardigheden</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>competências linguísticas</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">6</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>language skills</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="el">
+          <termSec>
+            <term>γλωσσικές ικανότητες</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="it">
+          <termSec>
+            <term>abilità linguistiche</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="sk">
+          <termSec>
+            <term>jazykové zručnosti</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="mt">
+          <termSec>
+            <term>ħila lingwistika</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>compétences linguistiques</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3569893">
+        <descrip type="subjectField">information technology and data processing;humanities</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>leabú focal</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>word embedding</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>modelo semântico distribucional</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="fr">
+          <termSec>
+            <term>plongement lexical</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3572197">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>Mbundais</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Mbunda</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>bunda</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3572162">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="sl">
+          <termSec>
+            <term>kimbundu</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>Ciombundais</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Kimbundu</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>quimbundo</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3592966">
+        <descrip type="subjectField">linguistics</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>linguistic expression</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="nl">
+          <termSec>
+            <term>talige uitdrukking</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>linguïstische uitdrukking</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>taalkundige uitdrukking</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3592256">
+        <descrip type="subjectField">documentation;information and information processing;publishing;linguistics</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>International Standard Language Resource Number</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+          <termSec>
+            <term>ISLRN</term>
+            <termNote type="termType">abbreviation</termNote>
+            <descrip type="reliabilityCode">10</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3572167">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>Umbundais</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Umbundu</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>umbundo</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3572165">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="ga">
+          <termSec>
+            <term>Seacbhais</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Cokwe</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>quioco</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>chócue</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3573857">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Herero</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="lv">
+          <termSec>
+            <term>hereru valoda</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>herero</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3575068">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>Makonde</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>maconde</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+      <conceptEntry id="3574906">
+        <descrip type="subjectField">social sciences</descrip>
+        <langSec xml:lang="en">
+          <termSec>
+            <term>eMakhuwa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>Emakhuwa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+          <termSec>
+            <term>Makhuwa</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+        <langSec xml:lang="pt">
+          <termSec>
+            <term>macua</term>
+            <termNote type="termType">fullForm</termNote>
+            <descrip type="reliabilityCode">9</descrip>
+          </termSec>
+        </langSec>
+      </conceptEntry>
+    </body>
+  </text>
+</tbx>
