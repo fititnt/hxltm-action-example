@@ -1,0 +1,46 @@
+# SPDX-License-Identifier: Unlicense OR 0BSD
+on: [push]
+
+jobs:
+  hxltm-testum:
+    runs-on: ubuntu-latest
+    name: hxltm-action ego testum
+    steps:
+      # @see https://github.com/actions/checkout
+      - name: Checkout the git repository to the actions temporary host runner
+        uses: actions/checkout@v2
+
+      - name: "hxltmcli --objectivum-TBX-Basim data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/exemplum/resultatum/de-hxltm/hxltm-exemplum-linguam.tbx"
+        uses: fititnt/hxltm-action@main
+        continue-on-error: true
+        with:
+          bin: "hxltmcli"
+          args: "--objectivum-TBX-Basim"
+          infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
+          outfile: data/exemplum/resultatum/de-hxltm/hxltm-exemplum-linguam.tbx
+
+      - name: "hxltmcli --objectivum-TMX data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/exemplum/resultatum/de-hxltm/hxltm-exemplum-linguam.tmx"
+        uses: fititnt/hxltm-action@main
+        continue-on-error: true
+        with:
+          bin: "hxltmcli"
+          args: "--objectivum-TMX"
+          infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
+          outfile: data/exemplum/resultatum/de-hxltm/hxltm-exemplum-linguam.tmx
+
+      - name: "hxltmcli --objectivum-UTX data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/exemplum/resultatum/de-hxltm/hxltm-exemplum-linguam.utx"
+        uses: fititnt/hxltm-action@main
+        continue-on-error: true
+        with:
+          bin: "hxltmcli"
+          args: "--objectivum-UTX"
+          infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
+          outfile: data/exemplum/resultatum/de-hxltm/hxltm-exemplum-linguam.utx
+
+      # @see https://github.com/actions/upload-artifact
+      - uses: actions/upload-artifact@v2
+        continue-on-error: true
+        with:
+          name: data
+          path: data/
+          retention-days: 5
