@@ -10,6 +10,7 @@ jobs:
       - name: Checkout the git repository to the actions temporary host runner
         uses: actions/checkout@v2
 
+      #### HXLTM export, multilingual formats __________________________________
       - name: "hxltmcli --objectivum-TBX-Basim data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/exemplum/resultatum/de-hxltm/hxltm-exemplum-linguam.tbx"
         uses: fititnt/hxltm-action@main
         continue-on-error: true
@@ -37,6 +38,26 @@ jobs:
           infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
           outfile: data/exemplum/resultatum/de-hxltm/hxltm-exemplum-linguam.utx
 
+      #### HXLTM import, multilingual formats __________________________________
+      - name: 'hxltmdexml --agendum-linguam por-Latn@pt tests/hxltm-exemplum-linguam.tbx tests/result/objectivum-de-tbx.tm.hxl.csv'
+        continue-on-error: true
+        uses: fititnt/hxltm-action@main
+        with:
+          bin: "hxltmdexml"
+          args: "--agendum-linguam por-Latn@pt"
+          infile: data/exemplum/hxltm-exemplum-linguam.tbx
+          outfile: data/exemplum/resultatum/de-tbx/hxltm-exemplum-linguam.tm.hxl.csv
+
+      - name: 'hxltmdexml --agendum-linguam por-Latn@pt data/exemplum/hxltm-exemplum-linguam.tmx data/exemplum/resultatum/de-tmx/hxltm-exemplum-linguam.tm.hxl.csv'
+        continue-on-error: true
+        uses: fititnt/hxltm-action@main
+        with:
+          bin: "hxltmdexml"
+          args: "--agendum-linguam por-Latn@pt"
+          infile: data/exemplum/hxltm-exemplum-linguam.tmx
+          outfile: data/exemplum/resultatum/de-tmx/hxltm-exemplum-linguam.tm.hxl.csv
+
+      #### Upload results ______________________________________________________
       # @see https://github.com/actions/upload-artifact
       - uses: actions/upload-artifact@v2
         continue-on-error: true
