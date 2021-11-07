@@ -71,6 +71,63 @@ jobs:
           infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
           outfile: data/README.por-Latn.md
 
+      - name: ".github/hxltm/hxltmcli.py --objectivum-formulam data/README.🗣️.md --objectivum-linguam eng-Latn@en data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/README.eng-Latn.md"
+        uses: fititnt/hxltm-action@main
+        continue-on-error: true
+        with:
+          bin: ".github/hxltm/hxltmcli.py"
+          args: |
+            --objectivum-formulam data/README.🗣️.md
+            --objectivum-linguam eng-Latn@en
+          infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
+          outfile: data/README.eng-Latn.md
+
+      - name: ".github/hxltm/hxltmcli.py --objectivum-formulam data/README.🗣️.md --objectivum-linguam lat-Latn@la data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/README.lat-Latn.md"
+        uses: fititnt/hxltm-action@main
+        continue-on-error: true
+        with:
+          bin: ".github/hxltm/hxltmcli.py"
+          args: |
+            --objectivum-formulam data/README.🗣️.md
+            --objectivum-linguam lat-Latn@la
+          infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
+          outfile: data/README.lat-Latn.md
+
+      - name: ".github/hxltm/hxltmcli.py --objectivum-formulam data/README.🗣️.md --objectivum-linguam spa-Latn@es data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/README.spa-Latn.md"
+        uses: fititnt/hxltm-action@main
+        continue-on-error: true
+        with:
+          bin: ".github/hxltm/hxltmcli.py"
+          args: |
+            --objectivum-formulam data/README.🗣️.md
+            --objectivum-linguam spa-Latn@es
+          infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
+          outfile: data/README.spa-Latn.md
+
+      - name: ".github/hxltm/hxltmcli.py --objectivum-formulam data/README.🗣️.md --objectivum-linguam arb-Arab@ar data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/README.arb-Arab.md"
+        uses: fititnt/hxltm-action@main
+        continue-on-error: true
+        with:
+          bin: ".github/hxltm/hxltmcli.py"
+          args: |
+            --objectivum-formulam data/README.🗣️.md
+            --objectivum-linguam arb-Arab@ar
+          infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
+          outfile: data/README.arb-Arab.md
+
+      - name: ".github/hxltm/hxltmcli.py --objectivum-formulam data/README.🗣️.md --objectivum-linguam hin-Deva@hi data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/README.hin-Deva.md"
+        uses: fititnt/hxltm-action@main
+        continue-on-error: true
+        with:
+          bin: ".github/hxltm/hxltmcli.py"
+          args: |
+            --objectivum-formulam data/README.🗣️.md
+            --objectivum-linguam hin-Deva@hi
+          infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
+          outfile: data/README.hin-Deva.md
+
+      # TODO: test set is missing Russian language
+
       #### Upload results ______________________________________________________
       # @see https://github.com/actions/upload-artifact
       - uses: actions/upload-artifact@v2
