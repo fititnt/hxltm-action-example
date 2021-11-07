@@ -57,6 +57,20 @@ jobs:
           infile: data/exemplum/hxltm-exemplum-linguam.tmx
           outfile: data/exemplum/resultatum/de-tmx/hxltm-exemplum-linguam.tm.hxl.csv
 
+      #### HXLTM ad hoc templated export _______________________________________
+      # - name: "hxltmcli --objectivum-formulam data/README.🗣️.md --objectivum-linguam por-Latn@pt data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/README.por-Latn.md"
+      - name: ".github/hxltm/hxltmcli.py --objectivum-formulam data/README.🗣️.md --objectivum-linguam por-Latn@pt data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/README.por-Latn.md"
+        uses: fititnt/hxltm-action@main
+        continue-on-error: true
+        with:
+          # bin: "hxltmcli"
+          bin: ".github/hxltm/hxltmcli.py" # This is a local fork
+          args: |
+            --objectivum-formulam data/README.🗣️.md
+            --objectivum-linguam por-Latn@pt
+          infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
+          outfile: data/README.por-Latn.md
+
       #### Upload results ______________________________________________________
       # @see https://github.com/actions/upload-artifact
       - uses: actions/upload-artifact@v2
