@@ -11,6 +11,37 @@ jobs:
         uses: actions/checkout@v2
 
       #### HXLTM export, multilingual formats __________________________________
+      - name: "hxltmcli --help"
+        uses: fititnt/hxltm-actionmain
+        continue-on-error: true
+        with:
+          bin: "hxltmcli"
+          args: "--help"
+
+      - name: "hxltmdexml --help"
+        uses: fititnt/hxltm-actionmain
+        continue-on-error: true
+        with:
+          bin: "hxltmdexml"
+          args: "--help"
+
+      # Bonus: HXLStandard cli tools ___________________________________________
+      # @see https://github.com/HXLStandard/libhxl-python/wiki/Command-line-tools
+      - name: "hxlselect --help"
+        uses: fititnt/hxltm-actionmain
+        continue-on-error: true
+        with:
+          bin: "hxlselect"
+          args: "--help"
+
+      - name: "hxlspec --help"
+        uses: fititnt/hxltm-actionmain
+        continue-on-error: true
+        with:
+          bin: "hxlspec"
+          args: "--help"
+
+      #### HXLTM export, multilingual formats __________________________________
       - name: "hxltmcli --objectivum-TBX-Basim data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/exemplum/resultatum/de-hxltm/hxltm-exemplum-linguam.tbx"
         uses: fititnt/hxltm-action@main
         continue-on-error: true
@@ -70,6 +101,8 @@ jobs:
             --objectivum-linguam por-Latn@pt
           infile: data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv
           outfile: data/README.por-Latn.md
+
+      # .github/hxltm/hxltmcli.py --objectivum-formulam data/README.🗣️.md --objectivum-linguam por-Latn@pt data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/README.{[iso6393]}-{[iso115924]}.md
 
       - name: ".github/hxltm/hxltmcli.py --objectivum-formulam data/README.🗣️.md --objectivum-linguam eng-Latn@en data/exemplum/hxltm-exemplum-linguam.tm.hxl.csv data/README.eng-Latn.md"
         uses: fititnt/hxltm-action@main
@@ -136,3 +169,5 @@ jobs:
           name: data
           path: data/
           retention-days: 5
+
+      # TODO: https://github.com/actions/checkout#push-a-commit-using-the-built-in-token
