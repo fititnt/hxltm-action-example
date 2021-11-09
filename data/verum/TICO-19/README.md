@@ -17,3 +17,12 @@ note={{arXiv}:2007.01788}
 - https://github.com/tico-19/tico-19.github.io/tree/master/data/terminologies
   - files g_*
   - 2021-11-09
+
+
+<!--
+hxltmdexml --agendum-linguam eng-Latn@en,rus-Cyrl@ru data/verum/TICO-19/translation-memories/all.en-ru.tmx data/verum/TICO-19/translation-memories-hxltm/all.en-ru.tm.hxl.csv
+
+hxltmdexml --agendum-linguam eng-Latn@en,fra-Latn@fr data/verum/TICO-19/translation-memories/all.en-fr.tmx data/verum/TICO-19/translation-memories-hxltm/all.en-fr.tm.hxl.csv
+
+hxltmdexml --agendum-linguam eng-Latn@en,hin-Deva@hi data/verum/TICO-19/translation-memories/all.en-hi.tmx data/verum/TICO-19/translation-memories-hxltm/all.en-hi.tm.hxl.csv
+-->
