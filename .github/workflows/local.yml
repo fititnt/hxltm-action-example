@@ -12,14 +12,14 @@ jobs:
 
       #### HXLTM export, multilingual formats __________________________________
       - name: "hxltmcli --help"
-        uses: fititnt/hxltm-actionmain
+        uses: fititnt/hxltm-action@main
         continue-on-error: true
         with:
           bin: "hxltmcli"
           args: "--help"
 
       - name: "hxltmdexml --help"
-        uses: fititnt/hxltm-actionmain
+        uses: fititnt/hxltm-action@main
         continue-on-error: true
         with:
           bin: "hxltmdexml"
@@ -28,14 +28,14 @@ jobs:
       # Bonus: HXLStandard cli tools ___________________________________________
       # @see https://github.com/HXLStandard/libhxl-python/wiki/Command-line-tools
       - name: "hxlselect --help"
-        uses: fititnt/hxltm-actionmain
+        uses: fititnt/hxltm-action@main
         continue-on-error: true
         with:
           bin: "hxlselect"
           args: "--help"
 
       - name: "hxlspec --help"
-        uses: fititnt/hxltm-actionmain
+        uses: fititnt/hxltm-action@main
         continue-on-error: true
         with:
           bin: "hxlspec"
